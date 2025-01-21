@@ -7,9 +7,22 @@
     <link rel="icon" href="icons/favicon.PNG" type="image/ico">
     <link rel="stylesheet" href="styles/main.css">
     <title>SafetyFlux's GitHub Page</title>
+    <!--- Load header and footer -->
+    <script>
+        $(function() {
+            $("header").load("common/header.html");
+            $("footer").load("common/footer.html");
+        });
+    </script>
 </head>
 <body>
-    <h1>This page is a work in progress!</h1>
-    <h2>Click <a href="flannels.html">HERE</a> to go to my flannels list!</h2>
+    <div id="container">
+        <header></header>
+
+        <h1>This page is a work in progress!</h1>
+        <h2>Click <a href="flannels.html">HERE</a> to go to my flannels list!</h2>
+
+        <footer></footer>
+    </div>
 </body>
 </html>
