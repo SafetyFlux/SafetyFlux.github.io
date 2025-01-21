@@ -14,6 +14,7 @@ then the stripe width (first going right, then going down).
 [07](#flannel-07)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [08](#flannel-08)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [09](#flannel-09)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[09](#flannel-10)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Template
 ```
@@ -342,3 +343,23 @@ then the stripe width (first going right, then going down).
 | 4 |  8 |
 | 1 |  3 |
 | 5 | 13 |
+
+# Flannel 10
+## Colors
+1. `ebdbb7`
+2. `99690f`
+3. `16203b`
+## Stripe Right
+| Color | Width |
+| ----: | :---- |
+| 1 | 49 |
+| 2 | 49 |
+| 1 | 49 |
+| 3 | 49 |
+## Stripe Down
+| Color | Width |
+| ----: | :---- |
+| 1 | 51 |
+| 2 | 51 |
+| 1 | 51 |
+| 3 | 51 |
