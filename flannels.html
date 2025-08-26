@@ -8,8 +8,22 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/flannels.css">
   <title>Safety's Flannels</title>
+  <!-- Load header and footer -->
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous">
+  </script>
+  <script>
+    $(function() {
+      $("header").load("common/header.html");
+      $("footer").load("common/footer.html");
+    });
+  </script>
 </head>
 <body>
+  <header></header>
+
   <h1>Flannel patterns are generated using the <a href=https://doodlenerd.com/web-tool/plaid-designer>Plaid Designer Tool</a></h1>
   <div class="flex-container">
     <div class="plaid plaid-green_white_and_yellow"></div>
@@ -29,5 +43,7 @@
     <div class="plaid plaid-dark_blue_and_orange"></div>
     <div class="plaid plaid-tan"></div>
   </div>
+
+  <footer></footer>
 </body>
 </html>
