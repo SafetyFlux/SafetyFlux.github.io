@@ -1,31 +1,3 @@
-/* General Styling */
-body {
-    background-color: #323232;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h1 {
-    margin: 50px 30px 0;
-    text-align: center;
-    color: #ffffff;
-}
-
-/* Links */
-a {
-    text-decoration: none;
-}
-a:link {
-    color: #ffb2b2;
-}
-a:visited {
-    color: #ff9090;
-}
-a:hover {
-    color: #ff5e5e;
-}
-a:active {
-    color: #ff5e5e;
-}
-
 /* Flannel Display */
 .flex-container {
   display: flex;
