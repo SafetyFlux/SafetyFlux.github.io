@@ -25,6 +25,7 @@ header {
   background-color: #111111;
   color: #ffffff;
   font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header a:link {
   color: #ffffff;

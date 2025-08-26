@@ -17,10 +17,12 @@
   border-width: 3px;
   border-radius: 10px;
   background-color: #242424;
-  font-size: 14px;
 }
 .resource img {
   border: #cccccc;
   border-bottom-style: solid;
   border-width: 2px;
+}
+.resource p {
+  font-size: 28px;
 }
