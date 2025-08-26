@@ -16,25 +16,37 @@ h2 {
 }
 
 /* Header and Footer */
-#header {
-  vertical-align: middle;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #111111;
-  font-size: 28px;
+  color: #ffffff;
+  font-size: 24px;
 }
-#header a:link {
+header a:link {
   color: #ffffff;
 }
-#header a:visited {
+header a:visited {
   color: #ffffff;
 }
-#header a:hover {
+header a:hover {
   color: #ffffff;
 }
-#header a:active {
+header a:active {
   color: #ffffff;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .title {
-  padding: 12px 20px;
   font-size: 32px;
 }
 
