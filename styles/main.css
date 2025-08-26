@@ -1,32 +1,32 @@
 /* General Styling */
 body {
-    background-color: #323232;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #323232;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1 {
-    margin: 50px 30px 0;
-    text-align: center;
-    color: #ffffff;
+  margin: 50px 30px 0;
+  text-align: center;
+  color: #ffffff;
 }
 h2 {
-    margin: 50px 30px 0;
-    text-align: center;
-    color: #ffffff;
+  margin: 50px 30px 0;
+  text-align: center;
+  color: #ffffff;
 }
 
 /* Links */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:link {
-    color: #ffb2b2;
+  color: #ffb2b2;
 }
 a:visited {
-    color: #ff9090;
+  color: #ff9090;
 }
 a:hover {
-    color: #ff5e5e;
+  color: #ff5e5e;
 }
 a:active {
-    color: #ff5e5e;
+  color: #ff5e5e;
 }

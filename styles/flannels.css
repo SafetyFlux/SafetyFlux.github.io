@@ -28,70 +28,70 @@ a:active {
 
 /* Flannel Display */
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 .plaid {
-    margin: 0 25px 50px;
-    height: 300px;
-    width: 300px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #ffffff;
+  margin: 0 25px 50px;
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #ffffff;
 }
 .plaid-green_white_and_yellow {
-    background-image: url("../images/flannels/green_white_and_yellow.png");
+  background-image: url("../images/flannels/green_white_and_yellow.png");
 }
 .plaid-green {
-    background-image: url("../images/flannels/green.png");
+  background-image: url("../images/flannels/green.png");
 }
 .plaid-dark_green {
-    background-image: url("../images/flannels/dark_green.png");
+  background-image: url("../images/flannels/dark_green.png");
 }
 .plaid-turquoise {
-    background-image: url("../images/flannels/turquoise.png");
+  background-image: url("../images/flannels/turquoise.png");
 }
 .plaid-blue_white_and_gold {
-    background-image: url("../images/flannels/blue_white_and_gold.png");
+  background-image: url("../images/flannels/blue_white_and_gold.png");
 }
 .plaid-black {
-    background-image: url("../images/flannels/black.png");
+  background-image: url("../images/flannels/black.png");
 }
 .plaid-black_blue_and_pink {
-    background-image: url("../images/flannels/black_blue_and_pink.png");
+  background-image: url("../images/flannels/black_blue_and_pink.png");
 }
 .plaid-fuchsia {
-    background-image: url("../images/flannels/fuchsia.png");
+  background-image: url("../images/flannels/fuchsia.png");
 }
 .plaid-lesbian {
-    background-image: url("../images/flannels/lesbian.png");
+  background-image: url("../images/flannels/lesbian.png");
 }
 .plaid-christmas {
-    background-image: url("../images/flannels/christmas.png");
+  background-image: url("../images/flannels/christmas.png");
 }
 .plaid-classic {
-    background-image: url("../images/flannels/classic.png");
+  background-image: url("../images/flannels/classic.png");
 }
 .plaid-red_and_gray {
-    background-image: url("../images/flannels/red_and_gray.png");
+  background-image: url("../images/flannels/red_and_gray.png");
 }
 .plaid-dark_red {
-    background-image: url("../images/flannels/dark_red.png");
+  background-image: url("../images/flannels/dark_red.png");
 }
 .plaid-burnt_orange {
-    background-image: url("../images/flannels/burnt_orange.png");
+  background-image: url("../images/flannels/burnt_orange.png");
 }
 .plaid-dark_blue_and_orange {
-    background-image: url("../images/flannels/dark_blue_and_orange.png");
+  background-image: url("../images/flannels/dark_blue_and_orange.png");
 }
 .plaid-tan {
-    background-image: url("../images/flannels/tan.png");
+  background-image: url("../images/flannels/tan.png");
 }
