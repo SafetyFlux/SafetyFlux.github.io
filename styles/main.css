@@ -46,6 +46,9 @@ nav ul {
   padding: 0;
   list-style: none;
 }
+nav li {
+  margin-left: 40px;
+}
 .title {
   font-size: 32px;
 }
