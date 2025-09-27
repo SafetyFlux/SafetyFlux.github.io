@@ -84,6 +84,7 @@ nav li {
   }
   nav li {
     margin-top: 10px;
+    margin-left: 0;
   }
   nav ul.active {
     max-height: 300px;
