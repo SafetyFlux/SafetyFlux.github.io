@@ -1,11 +1,11 @@
-#resource-wrapper {
+#card-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.resource {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,11 +18,11 @@
   border-radius: 10px;
   background-color: #242424;
 }
-.resource img {
+.card img {
   border: #cccccc;
   border-bottom-style: solid;
   border-width: 2px;
 }
-.resource p {
+.card p {
   font-size: 28px;
 }
