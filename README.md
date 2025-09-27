@@ -10,4 +10,4 @@ This website is currently a work in progress! The plan is to eventually turn it 
 - [ ] Add section for patterns that I'm interested in
   - [ ] If relevant, add store link to pattern image
 ### Games
-- [ ] Create a game to add to this page
+- [ ] Create a game to add to the page
