@@ -15,9 +15,6 @@ h2 {
 
 /* Header and Footer */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 48px;
   padding: 12px 24px;
   position: sticky;
@@ -49,8 +46,59 @@ nav ul {
 nav li {
   margin-left: 40px;
 }
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu {
+  display: none;
+  cursor: pointer;
+}
 .title {
   font-size: 32px;
+}
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+      max-height 0.3s ease-out,
+      padding 0.3s ease-out,
+      margin-top 0.3s ease-out,
+      border-width 0.3s ease-out,
+      border-color 0.3s ease-out;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    border-top: 0 solid transparent;
+  }
+  nav li {
+    margin-top: 10px;
+  }
+  nav ul.active {
+    max-height: 300px;
+    margin-top: 0.8rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid #ffffff;
+  }
+  .menu {
+    display: block;
+    margin-left: auto;
+  }
+  .menu i {
+    transition: opacity 0.2s ease;
+    display: inline-block;
+  }
 }
 
 /* Links */

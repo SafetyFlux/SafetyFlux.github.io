@@ -1,9 +1,35 @@
-<div id="header">
+<script src="https://kit.fontawesome.com/e026f8f21c.js" crossorigin="anonymous"></script>
+
+<script>
+  const menu = document.querySelector('.menu');
+  const icon = menu.querySelector('i');
+  const navLinks = document.querySelector('nav > ul');
+
+  menu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+
+    // Switch icons with subtle animation
+    icon.style.opacity = '0';
+    setTimeout(() => {
+      if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+      icon.style.opacity = '1';
+    }, 200);
+  });
+</script>
+
+<nav id="navbar">
   <div class="title">
     <a href="index.html">SafetyFlux</a>
   </div>
-</div>
-<nav id="navbar">
+  <div class="menu">
+    <i class="fa-solid fa-bars"></i>
+  </div>
   <ul>
     <li><a href="about.html">About</a></li>
     <li><a href="resources.html">Resources</a></li>
