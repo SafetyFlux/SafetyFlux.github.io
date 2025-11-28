@@ -62,10 +62,6 @@ nav li {
 }
 /* Responsive Nav */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   nav ul {
     flex-direction: column;
     width: 100%;
@@ -91,6 +87,10 @@ nav li {
     margin-top: 0.8rem;
     padding: 0.5rem 0;
     border-top: 1px solid #ffffff;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .menu {
     display: block;
