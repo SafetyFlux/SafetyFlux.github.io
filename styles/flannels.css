@@ -1,4 +1,4 @@
-/* Flannel Display */
+/* General Flannel Display */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -23,6 +23,7 @@
   border-radius: 10px;
   border-color: #ffffff;
 }
+/* Owned Flannels */
 .plaid-green_white_and_yellow {
   background-image: url("../images/flannels/green_white_and_yellow.png");
 }
@@ -71,3 +72,4 @@
 .plaid-tan {
   background-image: url("../images/flannels/tan.png");
 }
+/* Desired Flannels */
