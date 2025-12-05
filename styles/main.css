@@ -12,6 +12,11 @@ h2 {
   text-align: center;
   color: #ffffff;
 }
+h3 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 15px;
+}
 
 /* Header and Footer */
 header {
