@@ -39,6 +39,9 @@
 .plaid-blue_white_and_gold {
   background-image: url("../images/flannels/blue_white_and_gold.png");
 }
+.plaid-dark_blue_and_white {
+  background-image: url("../images/flannels/dark_blue_and_white.png");
+}
 .plaid-black {
   background-image: url("../images/flannels/black.png");
 }
@@ -53,6 +56,9 @@
 }
 .plaid-christmas {
   background-image: url("../images/flannels/christmas.png");
+}
+.plaid-classic_dupe {
+  background-image: url("../images/flannels/classic_dupe.png");
 }
 .plaid-classic {
   background-image: url("../images/flannels/classic.png");
