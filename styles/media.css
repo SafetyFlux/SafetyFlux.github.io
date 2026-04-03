@@ -1,0 +1,31 @@
+/* Override Header Margin */
+header {
+  margin-bottom: 0px;
+}
+
+/* Media Category Tabs */
+#media-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #242424;
+}
+.tab {
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.tab.active {
+  color: #ff8888;
+}
+
+/* Media Content */
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
