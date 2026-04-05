@@ -71,21 +71,20 @@ header {
 /* Middle Row */
 .media-item-row.middle {
   justify-content: center;
-  height: 80px;
+  height: 90px;
   background-color: #000000;
 }
 .media-title {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 15px 20px 10px;
   font-size: 24px;
 }
 /* Bottom Row */
 .media-item-row.bottom {
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 40px;
   background-color: #000000;
 }
 .media-status {
