@@ -27,5 +27,77 @@ header {
   display: none;
 }
 .content.active {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Media Items */
+.media-item {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px 25px;
+  height: 380px;
+  width: 500px;
+  background-color: #242424;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: #000000;
+}
+.media-item-row {
+  display: flex;
+  flex-direction: row;
+}
+/* Top Row */
+.media-item-row.top {
+  justify-content: left;
+  border-bottom: solid 3px #000000;
+}
+.media-image {
+  display: flex;
+  justify-content: left;
+  height: 250px;
+  border-top-left-radius: 6px;
+}
+.media-summary {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+/* Middle Row */
+.media-item-row.middle {
+  justify-content: center;
+  background-color: #000000;
+}
+.media-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  height: 2.35em;
+  margin: 15px 20px 10px;
+  font-size: 24px;
+}
+/* Bottom Row */
+.media-item-row.bottom {
+  justify-content: space-around;
+  height: 100%;
+  background-color: #000000;
+}
+.media-status {
+  display: flex;
+  margin: 5px 0 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+.media-rating {
+  display: flex;
+  margin: 5px 0 0;
+  font-size: 20px;
+  color: #ffffff;
 }
