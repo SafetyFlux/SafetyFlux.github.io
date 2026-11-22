@@ -1,0 +1,57 @@
+/* Basic Styling */
+.tooltip {
+  color: #ecc2ff
+}
+.hidden {
+  display: none;
+}
+
+/* Tooltips for Video Games */
+.mario:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.zelda:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.pokemon:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.utdr:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.stardew:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.hk:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+
+/* Tooltips for Series / Movies */
+.duck:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.steven:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.dw:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+.tadc:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
+
+/* Tooltips for Miscellaneous */
+.snack:hover + .hidden {
+  display: block;
+  color: #dc90ff;
+}
