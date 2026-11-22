@@ -1,4 +1,7 @@
 /* Basic Styling */
+#content {
+  padding: 0 40px 100px;
+}
 .tooltip {
   color: #ecc2ff
 }
